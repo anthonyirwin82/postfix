@@ -48,6 +48,11 @@ s.rightdecisionnow.com REJECT You are breaching The Australian Spam Act 2003 and
 true.incomeofanyluck.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
 send.faithindestiny.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
 mailing.sanfranciscotraders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+email.localconservative.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+leadmark.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+*.leadmark.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+thepoliticalplaybooks.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+
 
 # Reject user@ all domains
 # I am blocking the user at all domains so that their full email address is not listed just in case an ordinary user has been hacked
