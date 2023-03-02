@@ -1,0 +1,83 @@
+# Manual Whitelist
+# Run the command "postmap hash:sender_access" to build the database
+#
+# These are some of the domains that I have whitelisted as ok to recieve email from. I added the amazonses.com because sometimes
+# spammers use amazon ses to send email and the servers get blocked by spam databases and that can block legitimate emails.
+#
+# I have whitelisted domains that I want to recieve emails from as a kind of paranoia factor to ensure I get the emails.
+
+# White List
+adventurecreator.org OK
+hypnosistrainingacademy.com OK
+wingchunqueensland.com.au OK
+aacbt.org.au OK
+*.aacbt.org.au OK
+ahahypnotherapy.org.au OK
+*.ahahypnotherapy.org.au OK
+hypnotherapycouncilofaustralia.com OK
+*.hypnotherapycouncilofaustralia.com OK
+hcaaustralianhypnotherapistsregister.com.au OK
+*.hcaaustralianhypnotherapistsregister.com.au OK
+guildofaustralianhypnotherapists.com.au OK
+*.guildofaustralianhypnotherapists.com.au OK
+ahtp.com.au OK
+myiict.com OK
+aipc.net.au OK
+lcia.com.au OK
+tppwholesale.com.au OK
+ebay.com OK
+ebay.com.au OK
+paypal.com.au OK
+paypal.com OK
+nab.com.au OK
+superhero.com.au OK
+selfwealth.com.au OK
+adventuregamestudio.co.uk OK
+blackbullmarkets.com OK
+icmarkets.com OK
+visionaire-studio.net OK
+steampowered.com OK
+bioware.swtor.com OK
+swtor.com OK
+*.amazonses.com OK
+*.smtp-out.amazonses.com OK
+gdevelop.io OK
+*.gdevelop.io OK
+godotengine.org OK
+*.godotengine.org OK
+unity.com OK
+*.unity.com OK
+ubuntu.com OK
+*.ubuntu.com OK
+manjaro.org OK
+*.manjaro.org OK
+surfshark.com OK
+*.surfshark.com OK
+fsf.org OK
+*.fsf.org OK
+
+
+# General Sites I want to accept mail from
+gmail.com OK
+hotmail.com OK
+outlook.com OK
+yahoo.com OK
+yahoo.com.au OK
+facebookmail.com OK
+des.qld.gov.au OK
+my.gov.au OK
+mygovid.gov.au OK
+police.qld.gov.au OK
+police.nsw.gov.au OK
+police.sa.gov.au OK
+police.vic.gov.au OK
+police.wa.gov.au OK
+police.act.gov.au OK
+police.tas.gov.au OK
+police.nt.gov.au OK
+cyber.gov.au OK
+afp.gov.au OK
+asic.gov.au OK
+ato.gov.au OK
+*.gov.au OK
+*.edu.au OK

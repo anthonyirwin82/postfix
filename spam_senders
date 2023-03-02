@@ -1,0 +1,63 @@
+# Manual Blacklist
+# Run the command "postmap hash:spam_senders" to build the database
+# 
+# I block all domains that send me unsolicited emails on a regular basis so I don't have to keep deleting their emails.
+# I realise spammers can forge an email address from real domains but as a general rule I would not be dealing with the
+# forged domains anyway so blocking them works for me.
+#
+# I used to block individual email addresses but these days I simply block the entire domain and or subdomain.
+#
+# I have released my config so other people can use my block list if they wish
+
+# Reject all emails from these domains
+viveportugal.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+proudsystems.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+myfitandhealth.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+drkareem.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+nextdoorbillionaires.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+ndb.nextdoorbillionaires.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+ik.investingskeeper.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+investingskeeper.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+itmr.insidethemarketrise.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+insidethemarketrise.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+t.worldwidetraders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+worldwidetraders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+1treebridge.com REJECT You are breaching The Australian Spam Act 2003 and you have been reported
+em.chegg.com REJECT
+trainingproduced.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+unnboxing.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+automatecollect.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+greenstonessg.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+tes.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+18comelectronics.com.sg REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+front-center-field.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+turntextintospeech.co REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+im.superconversionscorner.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+email.livetradenews.net REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+lp.luxuryprinciples.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+bestinvestchoice.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+the.greatmoneynews.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+thenounproject.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+timeto.encloseandreceive.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+like.alohatraders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+please.dontstopinvesting.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+wallstreetexpos.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+s.yourdailyinsiders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+email.beontopinvests.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+s.rightdecisionnow.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+true.incomeofanyluck.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+send.faithindestiny.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+mailing.sanfranciscotraders.com REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+
+# Reject user@ all domains
+# I am blocking the user at all domains so that their full email address is not listed just in case an ordinary user has been hacked
+# and being misused I don't want to have their full email address in a public git repo.
+#
+bonews@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+aussienews@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+liberty*@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+davidsylvian433@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+gomezjosechambers2020@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+markandres000758@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+wb6159980@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected
+adjafaiso@ REJECT You are breaching The Australian Spam Act 2003 and your email will be rejected

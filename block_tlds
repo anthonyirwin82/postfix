@@ -1,0 +1,16 @@
+# I block these top level domains due to the fact that for me at least they are prone to spam and no legitimate
+# website that I personally visit use these top level domains.
+
+/\.fun$/ REJECT We reject all .fun domains
+/\.party$/ REJECT We reject all .party domains
+/\.rest$/ REJECT We reject all .rest domains
+/\.xyz$/ REJECT We reject all .xyz domains
+/\.diet$/ REJECT We reject all .diet domains
+/\.bid$/ REJECT We reject all .bid domains
+/\.top$/ REJECT We reject all .top domains
+/\.online$/ REJECT We reject all .online domains
+/\.work$/ REJECT We reject all .work domains
+
+# allow these
+/\.gov.au$/ OK
+/\.edu.au$/ OK

@@ -1,0 +1,7 @@
+*.cf
+*.cf*
+*.db
+*.orig
+*.out
+post*
+whitelist_addresses
