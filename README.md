@@ -29,7 +29,8 @@ smtpd_recipient_restrictions =
         reject_rhsbl_sender dbl.spamhaus.org,
         reject_rbl_client zen.spamhaus.org,
         reject_rbl_client bl.spamcop.net,
-        reject_rbl_client dnsbl.sorbs.net
+        reject_rbl_client dnsbl.sorbs.net,
+        reject_rbl_client psbl.surriel.com
 smtpd_sender_restrictions =
         permit_mynetworks,
         permit_sasl_authenticated,
