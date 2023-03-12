@@ -1,3 +1,5 @@
+# Run the command "postmap block_tlds" to build the database
+#
 # I block these top level domains due to the fact that for me at least they are prone to spam and no legitimate
 # website that I personally visit use these top level domains.
 
